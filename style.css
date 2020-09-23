@@ -1,0 +1,126 @@
+body {
+  background: url(./bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Navbar */
+#menu > ul{
+  background: transparent;
+}
+
+#menu ul{
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+#menu ul a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 0 15px;
+  display: block;
+}
+
+#menu ul li{
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li a{
+  transform: scale(1);
+}
+
+#menu ul li a:hover{
+  transform: scaleY(1.5);
+  transition: .5s;
+  
+}
+
+#menu ul ul{
+  position: absolute;
+  background: transparent;
+  top: 100%;
+  left: 0%;
+  display: none;
+}
+
+#menu ul ul li{
+  float: none;
+  width: 200px;
+}
+
+#menu ul ul li:hover{
+  background: green;
+}
+
+#menu ul ul ul{
+  top: 0px;
+  left: 100%;
+}
+
+#menu ul li:hover > ul{
+  display: block;
+}
+.hotel a:hover {
+  background: rgb(82, 158, 31) !important;
+  opacity: 0.8;
+}
+
+.imgg {
+  transform: scale(1);
+  transition: all 0.4s ease-in-out;
+}
+.imgg:hover {
+  transform: scale(1.4);
+}
+
+/* Card button */
+.cm .btn:hover {
+  background: transparent;
+  border: 2px solid green;
+}
+
+.pn .btn:hover {
+  background: red;
+}
+
+.desh a {
+  text-decoration: none;
+  color: white;
+}
+.desh a:hover {
+  color: green;
+  text-decoration: none;
+}
+.design {
+  margin-bottom: 0px !important;
+}
+.navbar .dropdown-menu-right {
+  right: -91px;
+  left: auto;
+  top: 29px;
+}
+.prb a {
+  width: 70px;
+  height: 30px;
+  padding-top: 2px !important;
+}
+.prbb {
+  padding-right: 1px !important;
+}
+.prbb a {
+  padding-left: 1px !important;
+  padding-right: 1px !important;
+}
+.btr:hover{
+    transition: .5s;
+    border: 2px solid green;
+}
